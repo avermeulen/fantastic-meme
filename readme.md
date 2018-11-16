@@ -1,6 +1,6 @@
 # How to change CSS from the back-end
 
-This is an example of a project of how to trigger an change in your front-end from the back-end using `socket.io`.
+This is an example of a project of how to trigger a change in your front-end from the back-end using `socket.io`.
 
 It's using socket.io (in `server.js`) to send trigger an event called `change` from the back-end using `setInterval` every 2 seconds. It use a counter to determine what value to send to the client.
 
